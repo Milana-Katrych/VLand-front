@@ -30,9 +30,9 @@ function ShowStatistics() {
         <div>
           <h3>Total tracks:</h3>
           <p>{stats.totalTracks || 'N/A'}</p>
-          <h3>Total duration:</h3>
+          <h3>Total collection duration:</h3>
           <p>{stats.totalDuration || 'N/A'} seconds</p>
-          <h3>Average duration:</h3>
+          <h3>Average song duration:</h3>
           <p>{' '}{stats.averageDuration ? stats.averageDuration.toFixed(2) : 'N/A'} seconds</p>
         </div>
       ) : (
